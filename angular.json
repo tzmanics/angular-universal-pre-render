@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "angular-universal-pre-render"
+  "defaultProject": "angular-universal-pre-render",
+  "cli": {
+    "analytics": "f33e8aef-82e4-48f9-97d1-73599e666adf"
+  }
 }
