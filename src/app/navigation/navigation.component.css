@@ -1,0 +1,49 @@
+header {
+  margin-bottom: 25px;
+}
+header .logo {
+  font-family: "Poiret One", sans-serif;
+  font-size: 70px;
+  margin: 20px;
+  text-align: center;
+}
+nav {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav ul {
+  display: block;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+nav a {
+  display: inline-block;
+  font-family: "Poiret One", sans-serif;
+  font-size: 20px;
+  height: 40px;
+  padding-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 18%;
+}
+
+nav a:hover {
+  background-color: rgba(143, 188, 143, 0.2);
+}
+
+nav a.active {
+  background-color: linen;
+}
+
+nav a:visited {
+  color: black;
+}
