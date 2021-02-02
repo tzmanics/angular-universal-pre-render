@@ -1,0 +1,66 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 0 auto;
+  width: 80%;
+}
+.home img {
+  max-width: 800px;
+}
+.home-image-1 {
+  grid-area: 1 / 1 / 3 / 4;
+}
+.home-text-1 {
+  grid-area: 1 / 4 / 3 / 6;
+}
+.home-text-1,
+.home-text-2 {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+.home-text-1 h1,
+.home-text-2 h1 {
+  border-bottom: solid 1px rgba(143, 188, 143, 0.2);
+  font-family: "Poiret One", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+.home-text-1 p,
+.home-text-2 p {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
+}
+.home-text-2 {
+  grid-area: 3 / 1 / 5 / 3;
+}
+.home-image-2 {
+  grid-area: 3 / 3 / 5 / 6;
+}
+.home-image-3 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.home-image-4 {
+  grid-area: 5 / 2 / 6 / 3;
+}
+.home-image-5 {
+  grid-area: 5 / 3 / 6 / 4;
+}
+.home-image-6 {
+  grid-area: 5 / 4 / 6 / 5;
+}
+.home-image-7 {
+  grid-area: 5 / 5 / 6 / 6;
+}
+.home-image-3 img,
+.home-image-4 img,
+.home-image-5 img,
+.home-image-6 img,
+.home-image-7 img {
+  width: 100%;
+}
