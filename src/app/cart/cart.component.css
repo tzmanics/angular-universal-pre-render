@@ -1,0 +1,33 @@
+.cart {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.cart h2 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 40px;
+  margin: 30px;
+  text-align: center;
+}
+
+.cart a {
+  background-color: linen;
+  color: black;
+  display: inline-block;
+  font-family: "Poiret One", sans-serif;
+  font-size: 25px;
+  margin-top: 40px;
+  padding: 15px;
+  position: relative;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.cart a:hover {
+  background-color: rgba(143, 188, 143, 0.2);
+}
+
+.cart a:visited {
+  color: black;
+}
