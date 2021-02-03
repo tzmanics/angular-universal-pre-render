@@ -1,0 +1,61 @@
+.contact {
+  font-size: 19px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+.contact img {
+  width: 50px;
+}
+.contact-method-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.contact-method-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.contact-method-3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.map {
+  grid-area: 2 / 1 / 3 / 4;
+}
+.map img {
+  filter: drop-shadow(0 0 0.75rem gray);
+  width: 500px;
+}
+.contact-method-1 h3,
+.contact-method-2 h3,
+.contact-method-3 h3 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-transform: lowercase;
+}
+.contact-method-1,
+.contact-method-2,
+.contact-method-3 {
+  padding: 20px;
+}
+a {
+  color: black;
+  font-family: "Poiret One", sans-serif;
+  text-decoration: none;
+  background-color: linen;
+  color: black;
+  display: inline-block;
+  font-family: "Poiret One", sans-serif;
+  height: 180px;
+  padding-top: 10px;
+  position: relative;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+a:hover {
+  background-color: rgba(143, 188, 143, 0.2);
+}
