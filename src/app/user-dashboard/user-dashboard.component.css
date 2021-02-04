@@ -1,0 +1,20 @@
+.user-dashboard {
+  margin: 0 auto;
+  width: 80%;
+}
+.user-dashboard p {
+  font-family: "Poiret One", sans-serif;
+  font-size: 40px;
+  margin: 50px;
+  text-align: center;
+}
+.user-dashboard h1 {
+  font-family: "Poiret One", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.user-details img {
+  border: solid 3px black;
+  border-radius: 50%;
+  width: 90px;
+}
