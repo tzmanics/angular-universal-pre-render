@@ -26,6 +26,7 @@ nav ul li {
 }
 
 nav a {
+  color: black;
   display: inline-block;
   font-family: "Poiret One", sans-serif;
   font-size: 25px;
