@@ -8,7 +8,7 @@ This project will guide you through the process of pre-rendering your Angular pr
 
 To skip all this you could also just click this button:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://github.com/tzmanics/angular-universal-pre-render&utm_source=github&utm_medium=ng-prerender-tzm&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tzmanics/angular-universal-pre-render&utm_source=github&utm_medium=ng-prerender-tzm&utm_campaign=devex)
 
 ### Local Setup
 
