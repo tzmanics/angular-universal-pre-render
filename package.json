@@ -11,7 +11,8 @@
     "dev:ssr": "ng run angular-universal-pre-render:serve-ssr",
     "serve:ssr": "node dist/angular-universal-pre-render/server/main.js",
     "build:ssr": "ng build --prod && ng run angular-universal-pre-render:server:production",
-    "prerender": "ng run angular-universal-pre-render:prerender"
+    "prerender": "ng run angular-universal-pre-render:prerender",
+    "fix": "prettier --config ./.prettierrc --write \"src/**/**/*{.ts,.js,.json,.css,.scss}\""
   },
   "private": true,
   "dependencies": {
