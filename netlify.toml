@@ -2,6 +2,10 @@
   command = "npm run prerender"
   functions = "./functions"
   publish = "dist/angular-universal-pre-render/browser"
+[dev]
+  command = "npm run start"
+  functions = "./functions"
+  publish = "src"
 [[redirects]]
   from = "/*"
   to = "/index.html"
