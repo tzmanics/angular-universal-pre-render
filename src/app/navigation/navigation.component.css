@@ -2,7 +2,7 @@ header {
   margin-bottom: 25px;
 }
 header .logo {
-  font-family: "Poiret One", sans-serif;
+  font-family: 'Poiret One', sans-serif;
   font-size: 70px;
   margin: 20px;
   text-align: center;
@@ -28,7 +28,7 @@ nav ul li {
 nav a {
   color: black;
   display: inline-block;
-  font-family: "Poiret One", sans-serif;
+  font-family: 'Poiret One', sans-serif;
   font-size: 25px;
   height: 40px;
   padding-top: 5px;

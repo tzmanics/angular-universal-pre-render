@@ -31,7 +31,7 @@
 .contact-method-1 h3,
 .contact-method-2 h3,
 .contact-method-3 h3 {
-  font-family: "Poiret One", sans-serif;
+  font-family: 'Poiret One', sans-serif;
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
@@ -44,12 +44,12 @@
 }
 a {
   color: black;
-  font-family: "Poiret One", sans-serif;
+  font-family: 'Poiret One', sans-serif;
   text-decoration: none;
   background-color: linen;
   color: black;
   display: inline-block;
-  font-family: "Poiret One", sans-serif;
+  font-family: 'Poiret One', sans-serif;
   height: 180px;
   padding-top: 10px;
   position: relative;
